@@ -1,0 +1,35 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Black Panter: Wakanda Forever",
+      "runtime": "161 min",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 27,
+      "description": "Queen Ramonda, Shuri, M'Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T'Challa's death. As the Wakandans strive to embrace their next chapter, the heroes must band together with Nakia and Everett Ross to forge a new path for their beloved kingdom.",
+      "post": "images/wakanda-forever-atl.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Black Adam",
+      "runtime": "148 min",
+      "capacity": 30,
+      "showtime": "05:00PM",
+      "tickets_sold": 18,
+      "description": "In ancient Kahndaq, Teth Adam was bestowed the almighty powers of the gods. After using these powers for vengeance, he was imprisoned, becoming Black Adam. Nearly 5,000 years have passed, and Black Adam has gone from man to myth to legend.",
+      "post": "images/black-adam.png"
+    },
+    {
+      "id": "3",
+      "title": "The Contractor",
+      "runtime": "103 mins",
+      "capacity": 30,
+      "showtime": "08:00PM",
+      "tickets_sold": 22,
+      "description": "Upon joining an underground military force, a former sergeant's first successful mission earns him trouble. So, he must strive to unearth the truth about his new employer.",
+      "post": "images/contractor.jpeg"
+    }
+  ]
+} 
+

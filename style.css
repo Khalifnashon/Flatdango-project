@@ -1,0 +1,179 @@
+/* Google fonts file  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+html
+{
+    scroll-behavior: smooth;
+
+}
+
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(images/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    height: 130vh;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+.logo{
+    margin-left: 45px;
+    margin-top: 50px;
+}
+.logo img{
+    height: 7vh;
+
+}
+.logo h3{
+    color: rgb(18,241,241);
+    font-size: 25px;
+    margin-top: -35px;
+    margin-left: 80px;
+
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li {
+    list-style: none;
+}
+.nav ul li a {
+    text-decoration: none;
+    padding: 0px 20px;
+    color: rgb(227,238,227);
+
+}
+.nav ul li a:hover{
+    color: teal;
+    font-weight: bolder;
+}
+.user
+{
+    cursor: pointer;
+    color: teal;
+    margin-top: 40px;
+    margin-right: 40px;
+
+}
+.user a {
+    text-decoration: none;
+    color: white;
+    background-color: teal;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.user a:hover{
+    background-color: black;
+    color: teal;
+    font-weight: bolder;
+}
+.user i{
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 0px 14px;
+}
+
+.heropage{
+    position: absolute;
+    color: white;
+    margin-top: 500px;
+    margin-left: 700px;
+}
+
+.inside-heropage{
+    line-height: 1.2;
+}
+.inside-heropage h1{
+    font-size: 40px;
+}
+
+.inside-heropage p{
+    font-size: 17px;
+
+}
+span{
+    color: teal;
+    font-weight: bold;
+}
+.line1{
+    height: 2px;
+    color: rgb(18,241,241);
+    width: 12%;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+
+}
+.poster{
+    margin-top: 130px;
+    margin-right: 150px;
+}
+.poster img{
+    height: 320px;
+    float: right;
+    border-radius: 10px;
+}
+.btn1{
+    margin-top: 30px;
+
+}
+.btn1 button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    background: teal;
+    border-radius: 20px;
+}
+.btn1 button:hover{
+    background: black;
+    color: teal;
+
+}
+
+.cards{
+    position: absolute;
+    left: 20px;
+    top: 30px;    
+    padding: 100px 0px ;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.buttons button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    background: teal;
+    border-radius: 20px;
+}
+.buttons button:hover{
+    background: black;
+    color: teal;
+
+}
+
+.content{
+    color: teal;
+}
+
+.card img{
+    width: 90%;
+    height: 100%;
+}
